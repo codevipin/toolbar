@@ -28,6 +28,10 @@ import { AddComponentDirective } from './directives/add-component.directive';
   ],
   providers: [ToolbarService],
   bootstrap: [AppComponent],
-  entryComponents: [UploadComponent, SearchComponent, InsertNewComponent]
+  entryComponents: [
+    UploadComponent,
+    SearchComponent,
+    InsertNewComponent
+  ]
 })
 export class AppModule { }
