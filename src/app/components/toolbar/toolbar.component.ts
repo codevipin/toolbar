@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { UploadComponent } from '../utils/upload/upload.component';
+import { SearchComponent } from '../utils/search/search.component';
 
 @Component({
   selector: 'app-toolbar',
