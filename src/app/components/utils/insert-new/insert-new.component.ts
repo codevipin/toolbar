@@ -12,4 +12,9 @@ export class InsertNewComponent implements OnInit {
   ngOnInit() {
   }
 
+  insertNew( event:Event ) {
+	event.preventDefault()
+  	alert("Insert new item");
+  }
+
 }

@@ -12,4 +12,9 @@ export class UploadComponent implements OnInit {
   ngOnInit() {
   }
 
+  uploadFile( event:Event ) {
+  	event.preventDefault();
+  	console.log("uploading file");
+  }
+
 }
